@@ -1,0 +1,106 @@
+.text1{
+
+ margin-left: 1px;
+  margin-top: -18px;
+  margin-bottom:47px;
+}
+.SJ {
+  width: 20px;
+  height: 41px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Emblem_of_India.svg/250px-Emblem_of_India.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:left;
+  margin-left: 190px;
+  margin-top: -85px;
+}
+.text2{
+
+ margin-left: 232px;
+  margin-top: -60px;
+  margin-bottom:47px;
+}
+.Person{
+     width: 32px;
+  height: 50px;
+  background-image: url(https://i.pinimg.com/736x/e0/1f/3b/e01f3b95853258c72d8035a59ec9489f.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:left;
+  margin-left: 19px;
+  margin-top: -50px;
+  margin-bottom:50px;
+}
+.name1{
+    color: darkblue;
+    margin-left: 14px;
+    margin-top: -56px;
+}
+.name2{
+    margin-left: 10px;
+    margin-top: -28px;
+}
+.f_name1{
+    color: darkblue;
+    margin-left: 12px;
+    margin-top: -21px;
+}
+.f_name2{
+    margin-left: 11px;
+    margin-top: -29px;
+}
+.dob{
+    color: darkblue;
+    margin-left: 12px;
+    margin-top: -20px;
+}
+.dob2{
+    margin-left: 15px;
+    margin-top: -27px;
+}
+.Scanner{
+   width: 113px;
+  height: 79px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUXE8YAAEjuPhzcmaIT7TdIxEqsQhQIkqing&s);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:right;
+  margin-left: 230px;
+  margin-top: -150px;
+}
+.Signature{
+  
+    color: darkblue;
+    margin-left: 149px;
+    margin-top: -3px;
+}
+.SignatureImg{
+   width: 32px;
+  height: 50px;
+  background-image: url( https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxee4CfHzR4jNg1-_LJwE1HjEqUo8ndMSU8Q&s);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position:left;
+  background-color: rgb(144, 183, 228);
+  margin-left: 167px;
+  margin-top: -73px;
+  margin-bottom:50px;
+}
+.text3{
+  width: 165px;
+  height: 2px;
+  margin-left: 82px;
+  margin-top: -169px;
+  margin-bottom:-82px;
+    color: darkblue;
+   
+
+}
+.text4{
+  width: 140px;
+  height: 2px;
+  margin-left: 105px;
+  margin-top: 107px;
+  margin-bottom:-148px;
+    color: black;
+}
