@@ -98,16 +98,16 @@ while (temp > 0) {
 }
 console.log("Reversed number: " + reversed);
 
-//pallinfrome
+//Q12:pallinfrome
 var num = 1221; 
 var original=num; 
 var reversed = 0;
 var temp = num;
 
 while (temp > 0) {
-    var digit = temp % 10;         // Get last digit
-    reversed = reversed * 10 + digit;  // Append digit
-    temp = Math.floor(temp / 10);  // Remove last digit
+    var digit = temp % 10;         
+    reversed = reversed * 10 + digit;  
+    temp = Math.floor(temp / 10); 
 }
 console.log("Reversed number: " + reversed);
 if(original==reversed){
@@ -116,4 +116,54 @@ if(original==reversed){
 else{
     console.log("The num is not a pallindrome");
 }
+
+//Q13:Febonacii series
+var a = 0;
+var b = 1;
+var num = 10;
+console.log(a); // First term
+console.log(b); // Second term
+
+for (let i = 2; i < num; i++) {
+    var next_term = a + b;
+    console.log(next_term);
+    a = b;
+    b = next_term;
+}
+
+//Q14:take 10 no input and find it is -ve +ve or zero
+var n1 = 5;
+var n2 = -3;
+var n3 = 0;
+var n4 = 7;
+var n5 = -8;
+var n6 = 12;
+var n7 = 0;
+var n8 = -1;
+var n9 = 4;
+var n10 = -6;
+
+
+  if (n1> 0) {
+    console.log(n1+ " is Positive");
+  } else if (n1 < 0) {
+    console.log(n1 + " is Negative");
+  } else {
+    console.log(n1 + " is Zero");
+  }
+
+  //Q15:HCF
+  var a=12;
+  var b=14;
+  var min=Math.min(a,b);
+  for(let i=min;i>=1;i--){
+    if(a%i==0 && b%i==0){
+        console.log("hcf is: "+i);
+        break;
+    }
+  }
+
+
+
+
 
