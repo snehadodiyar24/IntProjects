@@ -205,17 +205,6 @@ for (var i = 1; i <= r; i++) {
     }
     console.log(line);
 }
-//c.
-for (var i = 1; i <= r; i++) {
-    var line = "";
-    for (var j = 1; j <= r - i; j++) {
-        line += " ";
-    }
-    for (var k = 1; k <= (2 * i - 1); k++) {
-        line += "";
-    }
-    console.log(line);
-}
 //d.
 var r = 5;
 for (var i = 1; i <= r; i++) {
