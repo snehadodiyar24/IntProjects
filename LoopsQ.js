@@ -163,6 +163,79 @@ var n10 = -6;
     }
   }
 
+  //Q22.Pattern printing
+
+  //a.
+  for(var i=1;i<=5;i++){
+    var line="";
+    for(var j=1;j<=10;j++){
+        line+="*";
+    }
+     console.log(line);
+  }
+  //b.
+  for(var i=1;i<=5;i++){
+    var line = "";
+    for(var j=1;j<i;j++){
+        line += "*";
+    }
+    console.log(line);
+}
+
+//c.
+var r = 5; // number of rows
+for (var i = 1; i <= r; i++) {
+    var line = "";
+    for (var j = 1; j <= r - i; j++) {
+        line += " ";
+    }
+    for (var k = 1; k <= (2 * i - 1); k++) {
+        line += "*";
+    }
+    console.log(line);
+}
+//d.
+for (var i = 1; i <= r; i++) {
+    var line = "";
+    for (var j = 1; j <= r - i; j++) {
+        line += " ";
+    }
+    for (var k = 1; k <= (2 * i - 1); k++) {
+        line += i;
+    }
+    console.log(line);
+}
+//c.
+for (var i = 1; i <= r; i++) {
+    var line = "";
+    for (var j = 1; j <= r - i; j++) {
+        line += " ";
+    }
+    for (var k = 1; k <= (2 * i - 1); k++) {
+        line += "";
+    }
+    console.log(line);
+}
+//d.
+var r = 5;
+for (var i = 1; i <= r; i++) {
+    var line = "";
+
+    for (var j = 1; j <= r - i; j++) {
+        line += " ";
+    }
+    for (var k= i; k >= 1; k--) {
+        line += k;
+    }
+    for (var l= 2; l<= i; l++) {
+        line += l;
+    }
+    console.log(line);
+}
+
+
+
+
 
 
 
