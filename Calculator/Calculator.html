@@ -5,46 +5,45 @@
   <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
- 
-    
-    <input type="text">
-  <div class="calculator">
-    
-    <div class="display"></div>
-    <div class="buttons">
+
+<div id="calculator">
+  <input id="display" readonly>
+  <div id="buttons">
     <table>
       <tr>
-        <td><div class="button">AC</div></td>
-        <td><div class="button">%</div></td>
-        <td><div class="button">&larr;</div></td>
-        <td><div class="button">/</div></td>
+        <td><button class="button" onclick="clearDisplay()">AC</button></td>
+        <td><button class="button" onclick="appendValue('%')">%</button></td>
+        <td><button class="button" onclick="backspace()">&larr;</button></td>
+        <td><button class="button" onclick="appendValue('/')">/</button></td>
       </tr>
       <tr>
-        <td><div class="button">7</div></td>
-        <td><div class="button">8</div></td>
-        <td><div class="button">9</div></td>
-        <td><div class="button">*</div></td>
+        <td><button class="button" onclick="appendValue('7')">7</button></td>
+        <td><button class="button" onclick="appendValue('8')">8</button></td>
+        <td><button class="button" onclick="appendValue('9')">9</button></td>
+        <td><button class="button" onclick="appendValue('*')">*</button></td>
       </tr>
       <tr>
-        <td><div class="button">4</div></td>
-        <td><div class="button">5</div></td>
-        <td><div class="button">6</div></td>
-        <td><div class="button">-</div></td>
+        <td><button class="button" onclick="appendValue('4')">4</button></td>
+        <td><button class="button" onclick="appendValue('5')">5</button></td>
+        <td><button class="button" onclick="appendValue('6')">6</button></td>
+        <td><button class="button" onclick="appendValue('-')">-</button></td>
       </tr>
       <tr>
-        <td><div class="button">1</div></td>
-        <td><div class="button">2</div></td>
-        <td><div class="button">3</div></td>
-        <td><div class="button">+</div></td>
+        <td><button class="button" onclick="appendValue('1')">1</button></td>
+        <td><button class="button" onclick="appendValue('2')">2</button></td>
+        <td><button class="button" onclick="appendValue('3')">3</button></td>
+        <td><button class="button" onclick="appendValue('+')">+</button></td>
       </tr>
       <tr>
-        <td><div class="button">00</div></td>
-        <td><div class="button">0</div></td>
-        <td><div class="button">.</div></td>
-        <td><div class="button">=</div></td>
+        <td><button class="button" onclick="appendValue('00')">00</button></td>
+        <td><button class="button" onclick="appendValue('0')">0</button></td>
+        <td><button class="button" onclick="appendValue('.')">.</button></td>
+        <td><button class="button" onclick="calculate()">=</button></td>
       </tr>
-    </table></div>
+    </table>
   </div>
+</div>
 
+<script src="Calculator.js"></script>
 </body>
 </html>
