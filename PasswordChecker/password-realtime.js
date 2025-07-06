@@ -2,7 +2,7 @@ document.getElementById("password").addEventListener("input", function () {
   var pass = this.value;
   var length = pass.length;
 
-  // Strength check
+ 
   if (length === 0) {
     document.getElementById("length").textContent = "Strength: ";
     return;
@@ -16,7 +16,6 @@ document.getElementById("password").addEventListener("input", function () {
     document.getElementById("length").textContent = "Strength: Strong";
   }
 
-  // Pattern checks
   var upper = /[A-Z]/;
   var lower = /[a-z]/;
   var number = /[0-9]/;
