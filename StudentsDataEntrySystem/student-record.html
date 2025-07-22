@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Students Data Entry System</title>
+  <link rel="stylesheet" href="student-record.css">
+</head>
+<body>
+
+  <h1><u>Students Data Entry System</u></h1>
+  <form id="myform">
+    <table>
+      <tr><td>First Name:</td><td><input type="text" id="FirstName" required></td></tr>
+      <tr><td>Last Name:</td><td><input type="text" id="LastName" required></td></tr>
+      <tr><td>Age:</td><td><input type="number" id="Age" required></td></tr>
+      <tr><td>Location:</td><td><input type="text" id="Location" required></td></tr>
+      <tr><td>Mobile:</td><td><input type="tel" id="Mobile" required></td></tr>
+      <tr><td>Class:</td><td><input type="text" id="Class" required></td></tr>
+      <tr><td>Branch:</td><td><input type="text" id="Branch" required></td></tr>
+      <tr><td>Year:</td><td><input type="text" id="Year" required></td></tr>
+      <tr><td>Password:</td><td><input type="password" id="Password" required></td></tr>
+      <tr><td>Marks:</td><td><input type="number" id="Marks" required></td></tr>
+      <tr><td>Percentage:</td><td><input type="number" id="Percentage" step="0.01" required></td></tr>
+      <tr><td>Status:</td><td><input type="text" id="Status" required></td></tr>
+    </table>
+
+    <div class="buttons">
+      <button type="submit">Submit</button>
+      <button type="button" id="deleteAll">Delete All Records</button>
+    </div>
+  </form>
+  
+  <h2>Student Records</h2>
+  <table id="dataTable" border="1" cellspacing="0" cellpadding="5">
+  <tr style="font-weight: bold; text-align: center; background-color: #f2f2f2;">
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Age</td>
+    <td>Location</td>
+    <td>Mobile</td>
+    <td>Class</td>
+    <td>Branch</td>
+    <td>Year</td>
+    <td>Password</td>
+    <td>Marks</td>
+    <td>Percentage</td>
+    <td>Status</td>
+    <td>Action</td>
+  </tr>
+    <!-- NewRows will appear here -->
+</table>
+  <script src="student-record.js"></script>
+</body>
+</html>
